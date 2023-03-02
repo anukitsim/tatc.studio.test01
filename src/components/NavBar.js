@@ -16,8 +16,8 @@ const NavContainer = styled(motion.div)`
 const MenuItems = styled(motion.ul)`
   position: relative;
   height: ${props => props.theme.navHeight};
-  background-color: #BCEAD5;
-  color: white;
+  background-color: black;
+  color: #BCEAD5;
   list-style:none;
   display: flex;
   justify-content: space-around;
@@ -46,7 +46,7 @@ const MenuBtn = styled(motion.li)`
 
 const MenuItem = styled(motion.li)`
   text-transform: uppercase;
-  color: black;
+  color: #BCEAD5;
 `;
 
 const NavBar = () => {

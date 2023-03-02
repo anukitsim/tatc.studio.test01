@@ -13,6 +13,7 @@ const GlobatStyles = createGlobalStyle`
 body{
     font-family: 'Gajraj One', cursive;
     overflow-x: hidden;
+    background-color: black;
 
 }
 

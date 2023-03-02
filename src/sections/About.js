@@ -31,6 +31,7 @@ const Left = styled.div`
   z-index: 5;
   margin-top: 20%;
   color: #bcead5;
+  
 `;
 
 const About = () => {
