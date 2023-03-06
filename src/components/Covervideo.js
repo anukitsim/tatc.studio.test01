@@ -47,14 +47,14 @@ const Title = styled(motion.div)`
   }
 
   h1 {
-    font-family: "Gajraj One", cursive;
+    font-family: 'Caveat', cursive;
     font-size: ${(props) => props.theme.fontBig};
     text-shadow: 1px 1px 1px ${(props) => props.theme.body};
     color: #bcead5;
   }
 
   h2 {
-    font-family: "Gajraj One", cursive;
+    font-family: 'Caveat', cursive;
     font-size: ${(props) => props.theme.fontlg};
     text-shadow: 1px 1px 1px ${(props) => props.theme.body};
     font-weight: 300;
@@ -128,9 +128,9 @@ const Covervideo = () => {
           </motion.h1>
         </div>
 
-        <h2  data-scroll data-scroll-delay="0.04" data-scroll-speed="2">
+        <motion.h2  data-scroll data-scroll-delay="0.04" data-scroll-speed="2">
           studio
-        </h2>
+        </motion.h2>
       </Title>
       {/* <video src={MainVideo} type='video/mp4' autoPlay muted loop />  */}
     </VideoContainer>

@@ -11,7 +11,7 @@ const GlobatStyles = createGlobalStyle`
 }
 
 body{
-    font-family: 'Gajraj One', cursive;
+    font-family: 'Caveat', cursive;
     overflow-x: hidden;
     background-color: black;
 
